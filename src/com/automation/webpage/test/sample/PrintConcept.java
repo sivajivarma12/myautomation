@@ -11,7 +11,7 @@ public class PrintConcept {
 		// TODO Auto-generated method stub
 		// Print the content and then go to next line
 	       System.out.println("Hello, World!");
-	       System.out.println("Hello, Mega!");
+	       System.out.println("Hello, Sivaji!");
 	       
 	       // Print the content and then stay on same line
 	       System.out.print("Hello,");
@@ -23,7 +23,7 @@ public class PrintConcept {
 	       System.out.println();
 	       
 	       // Format the digits and then Print the formated content and then stay on same line
-	       System.out.format("Total Bill is %.2f %n",100.93543539);
+	       System.out.format("Total Bill is %.2f %n",100.935435343);
 	       System.out.println();
 	       
 	       // Join multiple print statements together
