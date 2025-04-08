@@ -19,7 +19,8 @@ public class Assignment1 {
 		
 		//Amount of money in a customer's bank account: 1000.50
 		float money = 1000.50f;
-		System.out.println("Amount of money in a customer's bank account:"+money);
+		System.out.printf("Amount of money in a customer's bank account:%.2f",money);
+		System.out.println("");
 		
 		//Person's email address: "john.doe@example.com"
 		String emailAddress = "john.doe@example.com";
