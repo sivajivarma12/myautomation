@@ -49,7 +49,7 @@ public class Assignment1 {
 		System.out.println("Current year: "+year);
 				
 		//Number of followers on a social media platform: 1,000,000
-		int followersCount=1000000;
+		String followersCount="1,000,000";
 		System.out.println("Number of followers on social media paltform:"+followersCount);
 				
 		//Rating of a movie: 7.5
