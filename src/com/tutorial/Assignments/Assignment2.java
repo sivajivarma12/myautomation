@@ -4,7 +4,7 @@ public class Assignment2 {
 
 	public static void main(String[] args) {
 		
-		String num_array [ ] [ ] [ ] = {
+		String studentsRecord [ ] [ ] [ ] = {
 				{
 					{"sem1","Mathematics1","Pass(78)"},
 			        {"sem1","Physics","Pass(85)"},
@@ -46,8 +46,8 @@ public class Assignment2 {
 					  {"sem5","Computer Granphics","Pass(90)"}
 				  },
 				};
-		System.out.println("Semester 2 Subject 4 is"+num_array[1][3][1] +" and subject 5 is"+num_array[1][4][1]);
-        System.out.println("Semester 4 Subject 3 marks status"+num_array[3][2][2]+" and Semester 4 Subject 6 mark status"+num_array[3][5][2]);    		
+		System.out.println("Semester 2 Subject 4 is"+studentsRecord[1][3][1] +" and subject 5 is"+studentsRecord[1][4][1]);
+        System.out.println("Semester 4 Subject 3 marks status"+studentsRecord[3][2][2]+" and Semester 4 Subject 6 mark status"+studentsRecord[3][5][2]);    		
 		
 	}
 
