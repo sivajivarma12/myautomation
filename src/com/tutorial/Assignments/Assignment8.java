@@ -53,7 +53,7 @@ public class Assignment8 {
 		}
 		
 		System.out.println("Total credit Amount : "+totalCreditTranAmount+" credit transaction count:"+totalCreditCount);
-		System.out.println("Total debited Amount : "+totalDebitTranAmount+" debit transaction count:"+totalDebitCount);
+		System.out.println("Total debited Amount : "+Math.abs(totalDebitTranAmount)+" debit transaction count:"+totalDebitCount);
 		System.out.println("total remaining amount : "+finalAmount);
 		System.out.println("Total count of Suspicious "+totalSupi);
 		System.out.println("total number of transactions "+transaction.size());
