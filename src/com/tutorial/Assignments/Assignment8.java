@@ -12,7 +12,7 @@ public class Assignment8 {
 			
 	public static void main(String[] args) {
 
-		//variable Intialiase
+		//variable Initialize
 				int totalSupi=0,totalDebitTranAmount=0,totalCreditTranAmount=0,totalDebitCount=0,totalCreditCount = 0,finalAmount=0;
 		
 		//List of transaction adding to list
@@ -29,27 +29,36 @@ public class Assignment8 {
 		
 		for(int i=0; i<transaction.size();i++)
 		{	
-			//check credit transcation amount only
+			//check credit transaction amount only
 			if(transaction.get(i)>0)
 			{
 				totalCreditTranAmount += transaction.get(i);
 				++totalCreditCount;
-			}	
+				if(transaction.get(i)>=10000)
+				{
+					 ++totalSupi;  
+				}
+			}
 			else 
 			{
 				totalDebitTranAmount += transaction.get(i);
-				++totalDebitCount;	
+					++totalDebitCount;	
+				if(transaction.get(i)<= -10000)
+				{	
+					++totalSupi;  			
+				}
 			}
 			
 			finalAmount += transaction.get(i);
 			
-			//check suspicious credit and debit transaction
-			if(transaction.get(i)>=10000 || transaction.get(i)<= -10000 )
-			{	
-				System.out.println("Suspicious credit/ debit Transaction with Amount "+transaction.get(i));
-		        ++totalSupi;  
-		        
-			}
+			/*
+			 * //check suspicious credit and debt transaction if(transaction.get(i)>=10000
+			 * || transaction.get(i)<= -10000 ) {
+			 * System.out.println("Suspicious credit/ debit Transaction with Amount "
+			 * +transaction.get(i)); ++totalSupi;
+			 * 
+			 * }
+			 */
 		}
 		
 		System.out.println("Total credit Amount : "+totalCreditTranAmount+" credit transaction count:"+totalCreditCount);
