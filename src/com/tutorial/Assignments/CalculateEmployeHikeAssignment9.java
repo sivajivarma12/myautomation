@@ -12,7 +12,7 @@ public class CalculateEmployeHikeAssignment9 {
 	
 	public static void main(String[] args) {
 	
-		//create a object to get employess data
+		//create a object to get employes data
 		EmployeesHikeAssignment9 obj1 = new EmployeesHikeAssignment9();
 		//call method to get employee details
 		Map<String, List<Double>> employeeDetails = obj1.Employee();
@@ -34,12 +34,13 @@ public class CalculateEmployeHikeAssignment9 {
 		 AfterHike.put(name, SalaryAfterHike);
 		}
 		
+		System.out.println(AfterHike);
 		//print hike salary for all the employee
-		for(String name : names) 
+	/*	for(String name : names) 
 		{
 		 System.out.println("Emaployee name : "+name+" Hiked salary : "+AfterHike.get(name));
 		}
-        
+      */  
 		 
 	}
    
@@ -52,12 +53,14 @@ public class CalculateEmployeHikeAssignment9 {
 			variablepay=15.0d;
 			HikedSalary = (BaseSalary+(BaseSalary*variablepay)/100)+Bonus;
 			//System.out.println("Hiked salary" +HikedSalary);
+			
 		}	
 		else if(Rating>=3 && Rating<4)
 		{
 			Bonus=1200;
 			variablepay=10.0d;
 			HikedSalary = (BaseSalary+(BaseSalary*variablepay)/100)+Bonus;
+			
 			//System.out.println("Hiked salary" +HikedSalary);
 		}	
 		else
@@ -73,6 +76,9 @@ public class CalculateEmployeHikeAssignment9 {
 			HikedSalary +=5000.0;
 		//System.out.println("Hiked salary" +HikedSalary);
 		}
-		return HikedSalary;
+		
+		double HikedPer = ((HikedSalary/BaseSalary));
+		//System.out.println(HikedPer);
+		return HikedPer;
 	}
 }
