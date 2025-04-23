@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class EmployeesHikeAssignment9 {
 	
-	public Map<String,List<Double>> Employee()
+	public Map<String, List<Double>> Employee()
 	{
 		//store employee 1 data
 		List<Double> employee1details = new ArrayList<Double>();

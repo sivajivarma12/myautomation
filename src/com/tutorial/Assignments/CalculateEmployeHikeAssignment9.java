@@ -12,8 +12,9 @@ public class CalculateEmployeHikeAssignment9 {
 	
 	public static void main(String[] args) {
 	
-		//create a object to get employes data
+		//create a object to get employees data
 		EmployeesHikeAssignment9 obj1 = new EmployeesHikeAssignment9();
+		
 		//call method to get employee details
 		Map<String, List<Double>> employeeDetails = obj1.Employee();
 		
@@ -51,7 +52,7 @@ public class CalculateEmployeHikeAssignment9 {
 		{
 			Bonus=1500;
 			variablepay=15.0d;
-			HikedSalary = (BaseSalary+(BaseSalary*variablepay)/100)+Bonus;
+			HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 			//System.out.println("Hiked salary" +HikedSalary);
 			
 		}	
@@ -59,7 +60,7 @@ public class CalculateEmployeHikeAssignment9 {
 		{
 			Bonus=1200;
 			variablepay=10.0d;
-			HikedSalary = (BaseSalary+(BaseSalary*variablepay)/100)+Bonus;
+			HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 			
 			//System.out.println("Hiked salary" +HikedSalary);
 		}	
@@ -67,7 +68,7 @@ public class CalculateEmployeHikeAssignment9 {
 		{
 			Bonus=300;
 			variablepay=3.0d;
-			HikedSalary = (BaseSalary+(BaseSalary*variablepay)/100)+Bonus;
+			HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 			//System.out.println("Hiked salary" +HikedSalary);
 		}
 		
@@ -78,7 +79,7 @@ public class CalculateEmployeHikeAssignment9 {
 		}
 		
 		double HikedPer = ((HikedSalary/BaseSalary));
-		//System.out.println(HikedPer);
+		
 		return HikedPer;
 	}
 }
