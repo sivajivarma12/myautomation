@@ -52,7 +52,7 @@ public class CalculateEmployeHikeAssignment9 {
 		{
 			Bonus=1500;
 			variablepay=15.0d;
-			HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
+			//HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 			//System.out.println("Hiked salary" +HikedSalary);
 			
 		}	
@@ -60,7 +60,7 @@ public class CalculateEmployeHikeAssignment9 {
 		{
 			Bonus=1200;
 			variablepay=10.0d;
-			HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
+			//HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 			
 			//System.out.println("Hiked salary" +HikedSalary);
 		}	
@@ -68,16 +68,18 @@ public class CalculateEmployeHikeAssignment9 {
 		{
 			Bonus=300;
 			variablepay=3.0d;
-			HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
+			//HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 			//System.out.println("Hiked salary" +HikedSalary);
 		}
 		
+		HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 		if(experience>=5.0)
 		{	
 			HikedSalary +=5000.0;
 		//System.out.println("Hiked salary" +HikedSalary);
 		}
 		
+		//HikedSalary = (BaseSalary+(BaseSalary*variablepay))+Bonus;
 		double HikedPer = ((HikedSalary/BaseSalary));
 		
 		return HikedPer;
