@@ -8,7 +8,7 @@ public class Assignment15 {
 		//Assignmnet 15
 		
 		String sentence = "Java programming is fun and challenging";
-		String aw1 = "";
+		
 		
 		String []sentenceWords = sentence.split(" ");
 		
@@ -21,7 +21,43 @@ public class Assignment15 {
 		
 		System.out.println();
 		
+		System.out.println("-----------------------------------");
+		
+		for(int i=0;i<sentenceWords.length;i++)
+		{
+			for(int j=0 ; j<sentenceWords[i].length();j++)
+			{
+			  if(j==0)
+			  {	
+				System.out.print(sentenceWords[i].toUpperCase().charAt(0));
+			  }
+			  else
+			  {
+				 System.out.print(sentenceWords[i].charAt(j)); 
+			  }
+			 }
+			System.out.print(" ");
+		}
+		
+		
+		
+		
+		
 		System.out.println("-------------------------------------------------");	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		//Assignment 16
 		int count =0;
 		String paragraph = "Java is a popular programming language. Java is used for web development, mobile applications, and more.";
@@ -42,6 +78,7 @@ public class Assignment15 {
 	
 	System.out.println("-------------------------------------------------");
 
+	//assignment 17
 	int number=5;
 	
 	for(int i=1;i<=number;i++)
