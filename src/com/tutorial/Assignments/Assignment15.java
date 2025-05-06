@@ -23,6 +23,7 @@ public class Assignment15 {
 		
 		System.out.println("-----------------------------------");
 		
+		//first letter capital
 		for(int i=0;i<sentenceWords.length;i++)
 		{
 			for(int j=0 ; j<sentenceWords[i].length();j++)
@@ -51,19 +52,13 @@ public class Assignment15 {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
 		//Assignment 16
+		
 		int count =0;
 		String paragraph = "Java is a popular programming language. Java is used for web development, mobile applications, and more.";
-		
 		String []paragraphWords = paragraph.split(" ");
 		
+		//Print count and Indexes of the word
 		System.out.print("Java word index at : ");
 		for(int i=0;i<paragraphWords.length;i++)
 		{
@@ -74,6 +69,7 @@ public class Assignment15 {
 			}
 		}
 		System.out.println("");
+		//Find total number of occurrences
 		System.out.println("toatl java count : "+count);
 	
 	System.out.println("-------------------------------------------------");
