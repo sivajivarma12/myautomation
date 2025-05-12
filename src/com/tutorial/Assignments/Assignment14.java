@@ -4,12 +4,12 @@ public class Assignment14 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int number=5;
+		int number=9;
        int value;
 		
 		for(int i=number;i>0;i--)
 		{
-			value=5;
+			value=9;
 			for (int j=i; j>1 ;j--)
 			{
 				System.out.print(" ");
@@ -24,7 +24,7 @@ public class Assignment14 {
 		
 		for(int i=1;i<number;i++)
 		{
-			value=5;
+			value=9;
 			for(int space=i;space>=1;space--)
 			{	
 				System.out.print(" ");

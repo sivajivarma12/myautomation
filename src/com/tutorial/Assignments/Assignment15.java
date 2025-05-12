@@ -8,8 +8,6 @@ public class Assignment15 {
 		//Assignmnet 15
 		
 		String sentence = "Java programming is fun and challenging";
-		
-		
 		String []sentenceWords = sentence.split(" ");
 		
 		//Count the total number of words in the sentence.
@@ -20,7 +18,6 @@ public class Assignment15 {
 			System.out.print(sentenceWords[i]+" ");
 		
 		System.out.println();
-		
 		System.out.println("-----------------------------------");
 		
 		//first letter capital
@@ -36,21 +33,11 @@ public class Assignment15 {
 			  {
 				 System.out.print(sentenceWords[i].charAt(j)); 
 			  }
-			 }
+			}
 			System.out.print(" ");
 		}
-		
-		
-		
-		
-		
+		System.out.println();
 		System.out.println("-------------------------------------------------");	
-		
-		
-		
-		
-		
-		
 		
 		//Assignment 16
 		
@@ -89,6 +76,5 @@ public class Assignment15 {
 		}
 		System.out.println();
 	}
-	
   }
 }
